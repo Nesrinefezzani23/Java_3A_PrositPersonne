@@ -22,7 +22,7 @@ public class Département {
         return nomDépartement;
     }
 
-    public void setNom(String nom) {
+    public void setNomDépartement(String nom) {
         this.nomDépartement = nomDépartement;
     }
 

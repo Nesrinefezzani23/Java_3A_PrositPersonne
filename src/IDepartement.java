@@ -1,6 +1,6 @@
 import java.util.TreeSet;
 
-public interface IDepartement<T> {
+abstract public interface IDepartement<T> {
     void ajouterDepartement(T t);
     boolean rechercherDepartement(String nom);
     boolean rechercherDepartement(T t);
